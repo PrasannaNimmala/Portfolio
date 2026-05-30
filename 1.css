@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#0f172a;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+/* Center Everything */
+
+header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+/* Navigation */
+
+nav{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+/* Your Name */
+
+.logo{
+    font-size:55px;
+    color:#38bdf8;
+    margin-bottom:15px;
+}
+
+/* Welcome Text */
+
+h2{
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+/* Navbars */
+
+ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+    margin-bottom:50px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    background:#1e293b;
+    padding:12px 22px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+ul li a:hover{
+    background:#38bdf8;
+    color:black;
+}
+
+.active{
+    background:#fbbf24;
+    color:#0f172a;
+    font-weight:bold;
+}
+
+/* Quote Line */
+
+p{
+    font-size:22px;
+    color:#cbd5e1;
+    font-style:italic;
+    letter-spacing:1px;
+}
+
+
+
+
+
